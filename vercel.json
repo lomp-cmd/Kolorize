@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/colorize.js",
+      "use": "@vercel/node"
+    }
+  ]
+}
