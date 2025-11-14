@@ -1,1 +1,6 @@
-export default function App(){return <h1>Test</h1>}
+// in App.jsx
+const res = await fetch("/api/colorize.js", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ imageData })
+});
